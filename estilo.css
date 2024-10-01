@@ -1,0 +1,132 @@
+html {
+    background-image: url("imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    color: #9c9393;
+}
+
+#titulo {
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(81, 233, 225);
+    font-size: 60px;
+    padding: 1px;
+    margin: 50px;
+    background-color: rgb(54, 54, 59);
+
+}
+
+.bot {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    color: #9c9393;
+    width: 170ex;
+    height: 15ex;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(84, 223, 228);
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+    margin: 20px;
+}
+
+h3 {
+    
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(181, 255, 218);
+    text-align: center;
+    margin: 10px;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(164, 240, 236);
+    text-align: left;
+    margin: 100px;
+    font-size: 30px;
+
+}
+
+#enca {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+
+h6 {
+    display: grid;
+  grid-template-columns: 40% 20% 20% 20% 20%;
+  text-align: center;
+    margin: 10px;
+  color: rgb(181, 255, 218);
+}
+
+p {
+    display: flex;
+    text-align:justify;
+    justify-content:center;
+    align-items: flex-end;
+    color: rgb(246, 244, 248);
+    align-items: center;
+    margin: 30px;
+
+}
+
+
+
+h4 {
+    display: flex;
+    text-align:justify;
+    justify-content:center;
+    align-items: flex-end;
+    color: rgb(214, 240, 240);
+    align-items: center;
+    margin: 5px;
+    }
+
+img {
+    border-radius: 80%;
+    width: 300px;
+    height: 300px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tex {
+    justify-content:center;
+    text-indent: 30px;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 5px 0;
+    }
+    header {
+        
+        color: white;
+        padding: 5px 0;
+    }
